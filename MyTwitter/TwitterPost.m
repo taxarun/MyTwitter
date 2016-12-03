@@ -29,12 +29,12 @@
     [self.Avatar.layer setBorderWidth:2.0f];
     [self.Avatar.layer setBorderColor:[UIColor blackColor].CGColor];
     
-    [self.contentView.layer setBorderColor:[UIColor blackColor].CGColor];
-    [self.contentView.layer setBorderWidth:2.5f];
-    [self.contentView.layer setCornerRadius:5.0f];
+//    [self.contentView.layer setBorderColor:[UIColor blackColor].CGColor];
+//    [self.contentView.layer setBorderWidth:2.5f];
+//    [self.contentView.layer setCornerRadius:5.0f];
     
-    self.layer.masksToBounds = YES;
-    [self.layer setCornerRadius:5.0f];
+//    self.layer.masksToBounds = YES;
+//    [self.layer setCornerRadius:5.0f];
 }
 
 -(void)setBodyText:(NSString*)text
@@ -61,14 +61,14 @@
     else self.collapseConstrant.constant = 0.0f;
 }
 
-//Отступы для ячейки откраев экрана и других ячеек
-- (void)setFrame:(CGRect)frame
-{
-    frame.origin.y += 6;
-    frame.size.height -= 12;
-    frame.origin.x += 8;
-    frame.size.width -= 16;
-    [super setFrame:frame];
-}
+//Отступы для ячейки от краев экрана и других ячеек
+//- (void)setFrame:(CGRect)frame
+//{
+//    frame.origin.y += 6;
+//    frame.size.height -= 12;
+//    frame.origin.x += 8;
+//    frame.size.width -= 16;
+//    [super setFrame:frame];
+//}
 
 @end

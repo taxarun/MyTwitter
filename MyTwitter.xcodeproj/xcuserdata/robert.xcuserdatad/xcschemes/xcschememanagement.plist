@@ -9,6 +9,11 @@
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
+		<key>MyTwitterOSX.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
@@ -23,6 +28,36 @@
 			<true/>
 		</dict>
 		<key>E146B6DB1D8B3C1200B1878D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E1D527AB1DAFE043005C11E9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E1D527C01DAFE043005C11E9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E1D527CB1DAFE044005C11E9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E1D527E21DB016CE005C11E9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E1D527F71DB016CE005C11E9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E1D528021DB016CE005C11E9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
